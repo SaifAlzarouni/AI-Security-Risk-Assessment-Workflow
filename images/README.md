@@ -1,3 +1,5 @@
+# Project Images
+
 This folder contains screenshots and images used throughout the project documentation.
 
 Examples include:
