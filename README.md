@@ -424,3 +424,15 @@ Possible enhancements for future versions of this project include:
 This project is licensed under the MIT License.
 
 See the [LICENSE](LICENSE) file for more information.
+
+---
+
+# Acknowledgements
+
+This project was developed as a personal portfolio project to demonstrate workflow automation, AI-powered document analysis, and cybersecurity risk assessment using n8n and Google Gemini.
+
+Special thanks to:
+
+- The n8n community for workflow automation resources.
+- Google Gemini for AI-powered text analysis.
+- GitHub for project hosting and version control.
