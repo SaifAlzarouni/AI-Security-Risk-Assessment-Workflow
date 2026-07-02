@@ -105,3 +105,65 @@ PDF / Meeting Notes
 ![Workflow Overview](images/workflow-overview.png)
 
 The workflow first extracts text from the uploaded document, generates an executive summary, identifies cybersecurity risks using a dedicated AI agent, prioritizes the most critical findings, and finally prepares a professional Gmail draft ready for review.
+
+---
+
+# Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| n8n | Workflow automation platform |
+| Google Gemini | AI document summarization and cybersecurity risk analysis |
+| Gmail | Automatic email draft generation |
+| PDF Extract Node | Extracts text from uploaded PDF documents |
+| JavaScript Expressions | Parse AI outputs for Gmail subject and message |
+| Markdown | Project documentation |
+
+---
+
+# Software Requirements
+
+The following software and services are required to run this project:
+
+- n8n (latest stable version)
+- Google Gemini API access
+- Gmail account
+- Gmail OAuth credentials configured in n8n
+- Internet connection
+- Modern web browser
+
+---
+
+# Input
+
+The workflow accepts either of the following inputs:
+
+### Option 1 — PDF Document
+
+A PDF containing:
+
+- Security audit reports
+- Compliance reports
+- Meeting minutes
+- Risk assessment reports
+- Technical documentation
+
+### Option 2 — Meeting Notes
+
+Plain text meeting notes describing security findings, audit observations, or operational updates.
+
+---
+
+# Output
+
+After processing, the workflow automatically generates:
+
+- Executive Summary
+- Key Points
+- Action Items
+- Top 3 Cybersecurity Risks
+- Risk Level (Critical / High / Medium)
+- Recommended Mitigations
+- Professional Gmail Draft
+
+The Gmail draft is automatically created and saved for user review before sending.
