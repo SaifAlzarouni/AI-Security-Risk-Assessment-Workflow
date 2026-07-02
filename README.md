@@ -167,3 +167,56 @@ After processing, the workflow automatically generates:
 - Professional Gmail Draft
 
 The Gmail draft is automatically created and saved for user review before sending.
+
+---
+
+# Installation
+
+Follow these steps to run the AI Security Risk Assessment Workflow.
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/SaifAlzarouni/AI-Security-Risk-Assessment-Workflow.git
+```
+
+## 2. Install n8n
+
+Install the latest version of n8n by following the official installation guide:
+
+https://docs.n8n.io/
+
+## 3. Import the Workflow
+
+1. Open n8n.
+2. Select **Import Workflow**.
+3. Import the file located in:
+
+```
+workflow/AI-Document-Meeting-Assistant.json
+```
+
+## 4. Configure Credentials
+
+Create the required credentials inside n8n:
+
+- Google Gemini API
+- Gmail OAuth2
+
+## 5. Test the Workflow
+
+Upload one of the sample PDF files from:
+
+```
+sample-files/
+```
+
+or provide meeting notes manually.
+
+The workflow will automatically generate:
+
+- Executive Summary
+- Key Findings
+- Action Items
+- Cybersecurity Risk Assessment
+- Gmail Draft
