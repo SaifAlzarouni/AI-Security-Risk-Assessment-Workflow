@@ -284,3 +284,31 @@ Generate Gmail Draft
    ▼
 Ready for Review
 ```
+
+---
+
+# Folder Structure
+
+```
+AI-Security-Risk-Assessment-Workflow
+│
+├── README.md                     # Main project documentation
+│
+├── workflow/
+│   ├── AI-Document-Meeting-Assistant.json
+│   └── README.md
+│
+├── images/
+│   ├── workflow-overview.png
+│   ├── pdf-extraction-node.png
+│   ├── ai-agent-summary-prompt.png
+│   ├── risk-agent-prompt-part1.png
+│   ├── risk-agent-prompt-part2.png
+│   ├── gmail-draft-preview.png
+│   └── README.md
+│
+└── sample-files/
+    └── README.md
+```
+
+The repository is organized to separate workflow files, documentation, screenshots, and sample resources, making the project easier to understand and maintain.
