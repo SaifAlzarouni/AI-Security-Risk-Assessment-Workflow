@@ -220,3 +220,67 @@ The workflow will automatically generate:
 - Action Items
 - Cybersecurity Risk Assessment
 - Gmail Draft
+
+---
+
+# Usage
+
+Once the workflow has been imported and configured, the automation can be executed by following these steps.
+
+## Step 1 — Start the Workflow
+
+Open n8n and activate the workflow.
+
+## Step 2 — Provide Input
+
+Choose one of the supported inputs:
+
+- Upload a PDF document
+- Enter meeting notes
+
+## Step 3 — AI Document Analysis
+
+The first AI Agent analyzes the document and automatically generates:
+
+- Executive Summary
+- Key Points
+- Action Items
+
+## Step 4 — Cybersecurity Risk Assessment
+
+The second AI Agent reviews the generated summary and:
+
+- Identifies cybersecurity risks
+- Assigns a severity level
+- Prioritizes the three most critical risks
+- Generates mitigation recommendations
+
+## Step 5 — Gmail Draft Generation
+
+The workflow automatically extracts the generated subject and email body and creates a Gmail draft.
+
+The draft is saved for user review before sending.
+
+## Workflow Summary
+
+```
+Input
+   │
+   ▼
+PDF / Meeting Notes
+   │
+   ▼
+Extract Text
+   │
+   ▼
+AI Agent (Summary)
+   │
+   ▼
+AI Agent (Risk Assessment)
+   │
+   ▼
+Generate Gmail Draft
+   │
+   ▼
+Ready for Review
+```
