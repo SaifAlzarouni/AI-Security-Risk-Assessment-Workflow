@@ -72,3 +72,36 @@ This project was developed using an Agile-inspired iterative development approac
    - Document installation and usage instructions
 
 This iterative methodology allowed each workflow component to be validated independently before combining them into the final automation.
+
+---
+
+# System Architecture
+
+The workflow is composed of six main stages that work together to automate cybersecurity document analysis.
+
+```text
+PDF / Meeting Notes
+        │
+        ▼
+ PDF Text Extraction
+        │
+        ▼
+ AI Agent 1
+(Document Summarization)
+        │
+        ▼
+ AI Agent 2
+(Risk Assessment)
+        │
+        ▼
+ Gmail Draft Generation
+        │
+        ▼
+ Professional Security Email
+```
+
+## Workflow Diagram
+
+![Workflow Overview](images/workflow-overview.png)
+
+The workflow first extracts text from the uploaded document, generates an executive summary, identifies cybersecurity risks using a dedicated AI agent, prioritizes the most critical findings, and finally prepares a professional Gmail draft ready for review.
