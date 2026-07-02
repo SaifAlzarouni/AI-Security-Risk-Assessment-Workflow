@@ -7,6 +7,25 @@
 ![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Software Development Methodology](#software-development-methodology)
+- [System Architecture](#system-architecture)
+- [Workflow Diagram](#workflow-diagram)
+- [Technologies Used](#technologies-used)
+- [Software Requirements](#software-requirements)
+- [Input](#input)
+- [Output](#output)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Example Workflow Output](#example-workflow-output)
+- [Future Improvements](#future-improvements)
+- [License](#license)
+- [Author](#author)
+
 ---
 
 ## Project Overview
