@@ -436,3 +436,13 @@ Special thanks to:
 - The n8n community for workflow automation resources.
 - Google Gemini for AI-powered text analysis.
 - GitHub for project hosting and version control.
+
+---
+
+# Author
+
+**Saif Alzarouni**
+
+Computer Engineering Student
+
+GitHub: https://github.com/SaifAlzarouni
