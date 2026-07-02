@@ -397,3 +397,11 @@ Possible enhancements for future versions of this project include:
 - User authentication and role-based access control
 - Cloud deployment using Docker and Kubernetes
 - Automatic notification through Microsoft Teams or Slack
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+See the [LICENSE](LICENSE) file for more information.
