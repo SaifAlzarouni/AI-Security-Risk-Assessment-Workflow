@@ -30,3 +30,45 @@ The goal of this project is to demonstrate how workflow automation and generativ
 * Generates a concise professional email draft
 * Automatically creates the draft in Gmail
 * Uses a modular multi-agent workflow design
+
+---
+
+## Software Development Methodology
+
+This project was developed using an Agile-inspired iterative development approach. Each component of the workflow was designed, tested, and improved individually before integrating the complete automation.
+
+### Development Phases
+
+1. Requirement Analysis
+   - Define the project objective
+   - Identify workflow inputs and outputs
+   - Determine automation requirements
+
+2. Workflow Design
+   - Design the n8n workflow architecture
+   - Create the document processing pipeline
+   - Define interactions between AI agents
+
+3. AI Prompt Engineering
+   - Develop prompts for document summarization
+   - Develop prompts for cybersecurity risk assessment
+   - Optimize prompts for consistent structured outputs
+
+4. Integration
+   - Connect Google Gemini AI
+   - Configure Gmail draft generation
+   - Configure PDF text extraction
+
+5. Testing
+   - Test using sample meeting notes
+   - Test using PDF documents
+   - Verify generated summaries
+   - Verify risk classifications
+   - Verify Gmail draft formatting
+
+6. Documentation
+   - Prepare workflow documentation
+   - Capture workflow screenshots
+   - Document installation and usage instructions
+
+This iterative methodology allowed each workflow component to be validated independently before combining them into the final automation.
