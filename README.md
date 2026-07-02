@@ -441,7 +441,7 @@ Special thanks to:
 
 # Author
 
-**Saif Alzarouni**
+**Saif Abdulmajeed Alzarouni**
 
 Computer Engineering Student
 
